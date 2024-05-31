@@ -13,51 +13,19 @@ enum ViewState {
 
 struct MapView: View {
     
-    @State var viewState: ViewState = .g
+    @State var viewState: ViewState = .l1
     
     var body: some View {
-        VStack{
+        
+        HStack{
             VStack{
-                if viewState == .g {
-                    BasementView()
-                }
-                else if viewState == .l1 {
-                    FirstFloorView()
-                }
-                else if viewState == .l2 {
-                    SecondFloorView()
-                }
-                else if viewState == .l3 {
-                    ThirdFloorView()
-                }
-                else if viewState == .chem {
-                    ChemView()
-                }
-            }
-            Spacer()
-            HStack{
-                
-                Button {
-                    viewState = .g
-                } label: {
-                    ZStack{
-                        Rectangle()
-                            .frame(width: 50, height: 50)
-                            .cornerRadius(20)
-                            .foregroundColor(.maroon)
-                        Text("G")
-                            .font(.system(size: 15))
-                            .foregroundColor(.white)
-                    }
-                }.padding(.leading)
-                                
-                Button {
+                Button{
                     viewState = .l1
                 } label: {
                     ZStack{
                         Rectangle()
-                            .frame(width: 50, height: 50)
-                            .cornerRadius(20)
+                            .frame(width: 35, height: 20)
+                            .cornerRadius(10)
                             .foregroundColor(.maroon)
                         Text("L1")
                             .font(.system(size: 15))
@@ -65,14 +33,13 @@ struct MapView: View {
                     }
                 }.padding()
                 
-                
-                Button {
+                Button{
                     viewState = .l2
                 } label: {
                     ZStack{
                         Rectangle()
-                            .frame(width: 50, height: 50)
-                            .cornerRadius(20)
+                            .frame(width: 35, height: 20)
+                            .cornerRadius(10)
                             .foregroundColor(.maroon)
                         Text("L2")
                             .font(.system(size: 15))
@@ -80,14 +47,13 @@ struct MapView: View {
                     }
                 }.padding()
                 
-                
-                Button {
+                Button{
                     viewState = .l3
                 } label: {
                     ZStack{
                         Rectangle()
-                            .frame(width: 50, height: 50)
-                            .cornerRadius(20)
+                            .frame(width: 35, height: 20)
+                            .cornerRadius(10)
                             .foregroundColor(.maroon)
                         Text("L3")
                             .font(.system(size: 15))
@@ -95,22 +61,52 @@ struct MapView: View {
                     }
                 }.padding()
                 
+                Button{
+                    viewState = .g
+                } label: {
+                    ZStack{
+                        Rectangle()
+                            .frame(width: 35, height: 20)
+                            .cornerRadius(10)
+                            .foregroundColor(.maroon)
+                        Text("G")
+                            .font(.system(size: 15))
+                            .foregroundColor(.white)
+                    }
+                }.padding()
                 
-                Button {
+                Button{
                     viewState = .chem
                 } label: {
                     ZStack{
                         Rectangle()
-                            .frame(width: 50, height: 50)
-                            .cornerRadius(20)
+                            .frame(width: 35, height: 20)
+                            .cornerRadius(10)
                             .foregroundColor(.maroon)
-                        Text("C")
+                        Text("Ch")
                             .font(.system(size: 15))
                             .foregroundColor(.white)
                     }
-                }.padding(.trailing)
+                }.padding()
+            }
+            Spacer()
+            if viewState == .l1 {
+                FirstFloorView()
+            }
+            else if viewState == .l2 {
+                SecondFloorView()
+            }
+            else if viewState == .l3 {
+                ThirdFloorView()
+            }
+            else if viewState == .g {
+                BasementView()
+            }
+            else if viewState == .chem {
+                ChemView()
             }
         }
+        
     }
 }
 

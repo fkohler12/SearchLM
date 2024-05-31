@@ -30,9 +30,14 @@ struct StartupView: View {
                 .tabItem {
                     Label("Search", systemImage: "magnifyingglass")
                 }
-        ChatView()
+            SocialView()
                 .tabItem {
-                    Label("Chat", systemImage: "message.fill")
+                    Label("Social", systemImage: "person.3.sequence.fill")
+                }
+            
+            WeatherView()
+                .tabItem {
+                    Label("Weather", systemImage: "sun.min")
                 }
           AccountView()
             .tabItem {

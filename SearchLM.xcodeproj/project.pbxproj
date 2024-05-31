@@ -45,6 +45,7 @@
 		A04DC2FE2C0A0E6100F21744 /* tutorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2FD2C0A0E6100F21744 /* tutorView.swift */; };
 		A04DC3002C0A0FDD00F21744 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2FF2C0A0FDD00F21744 /* WeatherModel.swift */; };
 		A04DC3022C0A102800F21744 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC3012C0A102800F21744 /* WeatherView.swift */; };
+		A04DC3042C0A143200F21744 /* SocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC3032C0A143200F21744 /* SocialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		A04DC2FD2C0A0E6100F21744 /* tutorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorView.swift; sourceTree = "<group>"; };
 		A04DC2FF2C0A0FDD00F21744 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		A04DC3012C0A102800F21744 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		A04DC3032C0A143200F21744 /* SocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				A04DC2F72C0961DF00F21744 /* RoomDetailView.swift */,
 				A04DC2FD2C0A0E6100F21744 /* tutorView.swift */,
 				A04DC3012C0A102800F21744 /* WeatherView.swift */,
+				A04DC3032C0A143200F21744 /* SocialView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				A04DC2FE2C0A0E6100F21744 /* tutorView.swift in Sources */,
 				A04DC2E02C09568F00F21744 /* MapView.swift in Sources */,
 				A04DC3022C0A102800F21744 /* WeatherView.swift in Sources */,
+				A04DC3042C0A143200F21744 /* SocialView.swift in Sources */,
 				A04DC2AF2C0942AE00F21744 /* User.swift in Sources */,
 				A04DC2E82C09570B00F21744 /* AccountView.swift in Sources */,
 				A04DC2C92C09536600F21744 /* Test.swift in Sources */,
