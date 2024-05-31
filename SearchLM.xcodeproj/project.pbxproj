@@ -25,6 +25,7 @@
 		A04DC2BF2C0943F600F21744 /* FirstFloorRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2BE2C0943F600F21744 /* FirstFloorRooms.swift */; };
 		A04DC2C32C09442D00F21744 /* GroundFloorRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2C22C09442D00F21744 /* GroundFloorRooms.swift */; };
 		A04DC2C52C09444900F21744 /* ThirdFloorRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2C42C09444900F21744 /* ThirdFloorRooms.swift */; };
+		A04DC2C92C09536600F21744 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2C82C09536600F21744 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		A04DC2BE2C0943F600F21744 /* FirstFloorRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFloorRooms.swift; sourceTree = "<group>"; };
 		A04DC2C22C09442D00F21744 /* GroundFloorRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundFloorRooms.swift; sourceTree = "<group>"; };
 		A04DC2C42C09444900F21744 /* ThirdFloorRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFloorRooms.swift; sourceTree = "<group>"; };
+		A04DC2C82C09536600F21744 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				A04DC2BC2C0943C700F21744 /* ChemViews.swift */,
 				A04DC2BE2C0943F600F21744 /* FirstFloorRooms.swift */,
 				A04DC2C22C09442D00F21744 /* GroundFloorRooms.swift */,
+				A04DC2C82C09536600F21744 /* Test.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				A04DC2B12C0942F800F21744 /* AllFloors.swift in Sources */,
 				A04DC2AF2C0942AE00F21744 /* User.swift in Sources */,
+				A04DC2C92C09536600F21744 /* Test.swift in Sources */,
 				A04DC2BD2C0943C700F21744 /* ChemViews.swift in Sources */,
 				A04DC2B52C09434800F21744 /* SecondFloorApps.swift in Sources */,
 				A04DC2B92C09438D00F21744 /* Message.swift in Sources */,
