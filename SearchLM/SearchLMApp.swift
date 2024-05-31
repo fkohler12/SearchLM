@@ -22,11 +22,11 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct SearchLM: App {
     // register app delegate for Firebase setup
     @StateObject var user: User = User()
-//    @StateObject var chemistryRooms: ChemRooms = ChemRooms()
-//    @StateObject var firstFloorRooms: FirstFloorRooms = FirstFloorRooms()
-//    @StateObject var secondFloorRooms: SecondFloorRooms = SecondFloorRooms()
-//    @StateObject var thirdFloorRooms: ThirdFloorRooms = ThirdFloorRooms()
-//    @StateObject var groundFloorRooms: GroundFloorRooms = GroundFloorRooms()
+    @StateObject var chemistryRooms: ChemRooms = ChemRooms()
+    @StateObject var firstFloorRooms: FirstFloorRooms = FirstFloorRooms()
+    @StateObject var secondFloorRooms: SecondFloorRooms = SecondFloorRooms()
+    @StateObject var thirdFloorRooms: ThirdFloorRooms = ThirdFloorRooms()
+    @StateObject var groundFloorRooms: GroundFloorRooms = GroundFloorRooms()
 
 
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
@@ -37,11 +37,11 @@ struct SearchLM: App {
                 ZStack {
                     ContentView()
                         .environmentObject(user)
-//                        .environmentObject(chemistryRooms)
-//                        .environmentObject(firstFloorRooms)
-//                        .environmentObject(secondFloorRooms)
-//                        .environmentObject(thirdFloorRooms)
-//                        .environmentObject(groundFloorRooms)
+                        .environmentObject(chemistryRooms)
+                        .environmentObject(firstFloorRooms)
+                        .environmentObject(secondFloorRooms)
+                        .environmentObject(thirdFloorRooms)
+                        .environmentObject(groundFloorRooms)
                 }
             }
         }

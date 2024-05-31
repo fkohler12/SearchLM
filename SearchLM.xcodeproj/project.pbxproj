@@ -21,11 +21,25 @@
 		A04DC2B72C09436400F21744 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2B62C09436400F21744 /* Constants.swift */; };
 		A04DC2B92C09438D00F21744 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2B82C09438D00F21744 /* Message.swift */; };
 		A04DC2BB2C0943AC00F21744 /* chatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2BA2C0943AC00F21744 /* chatViewModel.swift */; };
-		A04DC2BD2C0943C700F21744 /* ChemViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2BC2C0943C700F21744 /* ChemViews.swift */; };
 		A04DC2BF2C0943F600F21744 /* FirstFloorRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2BE2C0943F600F21744 /* FirstFloorRooms.swift */; };
 		A04DC2C32C09442D00F21744 /* GroundFloorRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2C22C09442D00F21744 /* GroundFloorRooms.swift */; };
 		A04DC2C52C09444900F21744 /* ThirdFloorRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2C42C09444900F21744 /* ThirdFloorRooms.swift */; };
 		A04DC2C92C09536600F21744 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2C82C09536600F21744 /* Test.swift */; };
+		A04DC2D82C0955FE00F21744 /* ChemRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2D72C0955FE00F21744 /* ChemRooms.swift */; };
+		A04DC2DE2C09568000F21744 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2DD2C09568000F21744 /* SignInView.swift */; };
+		A04DC2E02C09568F00F21744 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2DF2C09568F00F21744 /* MapView.swift */; };
+		A04DC2E22C0956A300F21744 /* ClassInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2E12C0956A300F21744 /* ClassInfoView.swift */; };
+		A04DC2E42C0956CE00F21744 /* StartupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2E32C0956CE00F21744 /* StartupView.swift */; };
+		A04DC2E62C0956F500F21744 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2E52C0956F500F21744 /* SearchView.swift */; };
+		A04DC2E82C09570B00F21744 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2E72C09570B00F21744 /* AccountView.swift */; };
+		A04DC2EA2C09571C00F21744 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2E92C09571C00F21744 /* ChatView.swift */; };
+		A04DC2EC2C09573800F21744 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2EB2C09573800F21744 /* MessageView.swift */; };
+		A04DC2EE2C09613000F21744 /* BasementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2ED2C09613000F21744 /* BasementView.swift */; };
+		A04DC2F02C09614D00F21744 /* FirstFloorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2EF2C09614D00F21744 /* FirstFloorView.swift */; };
+		A04DC2F22C09619800F21744 /* SecondFloorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F12C09619800F21744 /* SecondFloorView.swift */; };
+		A04DC2F42C0961AD00F21744 /* ThirdFloorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F32C0961AD00F21744 /* ThirdFloorView.swift */; };
+		A04DC2F62C0961BD00F21744 /* ChemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F52C0961BD00F21744 /* ChemView.swift */; };
+		A04DC2F82C0961DF00F21744 /* RoomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F72C0961DF00F21744 /* RoomDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,11 +60,25 @@
 		A04DC2B62C09436400F21744 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A04DC2B82C09438D00F21744 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		A04DC2BA2C0943AC00F21744 /* chatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewModel.swift; sourceTree = "<group>"; };
-		A04DC2BC2C0943C700F21744 /* ChemViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemViews.swift; sourceTree = "<group>"; };
 		A04DC2BE2C0943F600F21744 /* FirstFloorRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFloorRooms.swift; sourceTree = "<group>"; };
 		A04DC2C22C09442D00F21744 /* GroundFloorRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundFloorRooms.swift; sourceTree = "<group>"; };
 		A04DC2C42C09444900F21744 /* ThirdFloorRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFloorRooms.swift; sourceTree = "<group>"; };
 		A04DC2C82C09536600F21744 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		A04DC2D72C0955FE00F21744 /* ChemRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemRooms.swift; sourceTree = "<group>"; };
+		A04DC2DD2C09568000F21744 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		A04DC2DF2C09568F00F21744 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A04DC2E12C0956A300F21744 /* ClassInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInfoView.swift; sourceTree = "<group>"; };
+		A04DC2E32C0956CE00F21744 /* StartupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupView.swift; sourceTree = "<group>"; };
+		A04DC2E52C0956F500F21744 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		A04DC2E72C09570B00F21744 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		A04DC2E92C09571C00F21744 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		A04DC2EB2C09573800F21744 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		A04DC2ED2C09613000F21744 /* BasementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasementView.swift; sourceTree = "<group>"; };
+		A04DC2EF2C09614D00F21744 /* FirstFloorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFloorView.swift; sourceTree = "<group>"; };
+		A04DC2F12C09619800F21744 /* SecondFloorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFloorView.swift; sourceTree = "<group>"; };
+		A04DC2F32C0961AD00F21744 /* ThirdFloorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFloorView.swift; sourceTree = "<group>"; };
+		A04DC2F52C0961BD00F21744 /* ChemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemView.swift; sourceTree = "<group>"; };
+		A04DC2F72C0961DF00F21744 /* RoomDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +96,7 @@
 		A04DC28D2C091B2D00F21744 = {
 			isa = PBXGroup;
 			children = (
+				A04DC2CA2C0954CC00F21744 /* Views */,
 				A04DC2AD2C09429300F21744 /* Models */,
 				A04DC2A72C092F3300F21744 /* Managers */,
 				A04DC2982C091B2D00F21744 /* SearchLM */,
@@ -124,12 +153,33 @@
 				A04DC2B62C09436400F21744 /* Constants.swift */,
 				A04DC2B82C09438D00F21744 /* Message.swift */,
 				A04DC2BA2C0943AC00F21744 /* chatViewModel.swift */,
-				A04DC2BC2C0943C700F21744 /* ChemViews.swift */,
 				A04DC2BE2C0943F600F21744 /* FirstFloorRooms.swift */,
 				A04DC2C22C09442D00F21744 /* GroundFloorRooms.swift */,
 				A04DC2C82C09536600F21744 /* Test.swift */,
+				A04DC2D72C0955FE00F21744 /* ChemRooms.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A04DC2CA2C0954CC00F21744 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A04DC2DD2C09568000F21744 /* SignInView.swift */,
+				A04DC2DF2C09568F00F21744 /* MapView.swift */,
+				A04DC2E12C0956A300F21744 /* ClassInfoView.swift */,
+				A04DC2E32C0956CE00F21744 /* StartupView.swift */,
+				A04DC2E52C0956F500F21744 /* SearchView.swift */,
+				A04DC2E72C09570B00F21744 /* AccountView.swift */,
+				A04DC2E92C09571C00F21744 /* ChatView.swift */,
+				A04DC2EB2C09573800F21744 /* MessageView.swift */,
+				A04DC2ED2C09613000F21744 /* BasementView.swift */,
+				A04DC2EF2C09614D00F21744 /* FirstFloorView.swift */,
+				A04DC2F12C09619800F21744 /* SecondFloorView.swift */,
+				A04DC2F32C0961AD00F21744 /* ThirdFloorView.swift */,
+				A04DC2F52C0961BD00F21744 /* ChemView.swift */,
+				A04DC2F72C0961DF00F21744 /* RoomDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		CC2DE39B998C263E6ABACA74 /* Frameworks */ = {
@@ -265,20 +315,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				A04DC2B12C0942F800F21744 /* AllFloors.swift in Sources */,
+				A04DC2F62C0961BD00F21744 /* ChemView.swift in Sources */,
+				A04DC2EA2C09571C00F21744 /* ChatView.swift in Sources */,
+				A04DC2E02C09568F00F21744 /* MapView.swift in Sources */,
 				A04DC2AF2C0942AE00F21744 /* User.swift in Sources */,
+				A04DC2E82C09570B00F21744 /* AccountView.swift in Sources */,
 				A04DC2C92C09536600F21744 /* Test.swift in Sources */,
-				A04DC2BD2C0943C700F21744 /* ChemViews.swift in Sources */,
 				A04DC2B52C09434800F21744 /* SecondFloorApps.swift in Sources */,
 				A04DC2B92C09438D00F21744 /* Message.swift in Sources */,
 				A04DC2BB2C0943AC00F21744 /* chatViewModel.swift in Sources */,
 				A04DC2BF2C0943F600F21744 /* FirstFloorRooms.swift in Sources */,
 				A04DC2C32C09442D00F21744 /* GroundFloorRooms.swift in Sources */,
 				A04DC2B32C09431A00F21744 /* Room.swift in Sources */,
+				A04DC2E22C0956A300F21744 /* ClassInfoView.swift in Sources */,
+				A04DC2E42C0956CE00F21744 /* StartupView.swift in Sources */,
+				A04DC2F02C09614D00F21744 /* FirstFloorView.swift in Sources */,
 				A04DC29C2C091B2D00F21744 /* ContentView.swift in Sources */,
+				A04DC2DE2C09568000F21744 /* SignInView.swift in Sources */,
+				A04DC2E62C0956F500F21744 /* SearchView.swift in Sources */,
 				A04DC29A2C091B2D00F21744 /* SearchLMApp.swift in Sources */,
+				A04DC2EC2C09573800F21744 /* MessageView.swift in Sources */,
 				A04DC2A92C092F5000F21744 /* DatabaseManager.swift in Sources */,
 				A04DC2B72C09436400F21744 /* Constants.swift in Sources */,
+				A04DC2F42C0961AD00F21744 /* ThirdFloorView.swift in Sources */,
+				A04DC2F82C0961DF00F21744 /* RoomDetailView.swift in Sources */,
 				A04DC2C52C09444900F21744 /* ThirdFloorRooms.swift in Sources */,
+				A04DC2D82C0955FE00F21744 /* ChemRooms.swift in Sources */,
+				A04DC2EE2C09613000F21744 /* BasementView.swift in Sources */,
+				A04DC2F22C09619800F21744 /* SecondFloorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

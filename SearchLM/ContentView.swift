@@ -1,25 +1,31 @@
 //
 //  ContentView.swift
-//  SearchLM
+//  FinalProject
 //
-//  Created by Felix Kohler (student LM) on 5/30/24.
+//  Created by Youssef Niazy (student LM) on 3/8/24.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var user: User
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            if(user.loggedIn){
+                StartupView()
+                .edgesIgnoringSafeArea(.all)}
+              
+            else{
+                SignInView()
+            }
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ChatView()
+            .environmentObject(User())
+            .environmentObject(ChatViewModel())
     }
 }
