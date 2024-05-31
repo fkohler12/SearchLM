@@ -7,6 +7,7 @@
 
 import Foundation
 import FirebaseAuth
+
 struct Message: Decodable, Identifiable {
     let id = UUID()
     let userUid: String

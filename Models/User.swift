@@ -12,6 +12,10 @@ class User: ObservableObject{
     @Published var image: UIImage = UIImage(named: "user") ?? UIImage()
     @Published var loggedIn: Bool = false
     @Published var uid: String = ""
+    @Published var latitude : Double = 40.0068
+    @Published var longitude : Double = -75.2855
+    
+
     
     
     init(email: String = "", password: String = ""){

@@ -40,6 +40,11 @@
 		A04DC2F42C0961AD00F21744 /* ThirdFloorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F32C0961AD00F21744 /* ThirdFloorView.swift */; };
 		A04DC2F62C0961BD00F21744 /* ChemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F52C0961BD00F21744 /* ChemView.swift */; };
 		A04DC2F82C0961DF00F21744 /* RoomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F72C0961DF00F21744 /* RoomDetailView.swift */; };
+		A04DC2FA2C0A0DE800F21744 /* Tutors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F92C0A0DE800F21744 /* Tutors.swift */; };
+		A04DC2FC2C0A0E2500F21744 /* TutorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2FB2C0A0E2500F21744 /* TutorList.swift */; };
+		A04DC2FE2C0A0E6100F21744 /* tutorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2FD2C0A0E6100F21744 /* tutorView.swift */; };
+		A04DC3002C0A0FDD00F21744 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2FF2C0A0FDD00F21744 /* WeatherModel.swift */; };
+		A04DC3022C0A102800F21744 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC3012C0A102800F21744 /* WeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +84,11 @@
 		A04DC2F32C0961AD00F21744 /* ThirdFloorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFloorView.swift; sourceTree = "<group>"; };
 		A04DC2F52C0961BD00F21744 /* ChemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemView.swift; sourceTree = "<group>"; };
 		A04DC2F72C0961DF00F21744 /* RoomDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailView.swift; sourceTree = "<group>"; };
+		A04DC2F92C0A0DE800F21744 /* Tutors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutors.swift; sourceTree = "<group>"; };
+		A04DC2FB2C0A0E2500F21744 /* TutorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorList.swift; sourceTree = "<group>"; };
+		A04DC2FD2C0A0E6100F21744 /* tutorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorView.swift; sourceTree = "<group>"; };
+		A04DC2FF2C0A0FDD00F21744 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		A04DC3012C0A102800F21744 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +167,9 @@
 				A04DC2C22C09442D00F21744 /* GroundFloorRooms.swift */,
 				A04DC2C82C09536600F21744 /* Test.swift */,
 				A04DC2D72C0955FE00F21744 /* ChemRooms.swift */,
+				A04DC2F92C0A0DE800F21744 /* Tutors.swift */,
+				A04DC2FB2C0A0E2500F21744 /* TutorList.swift */,
+				A04DC2FF2C0A0FDD00F21744 /* WeatherModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +191,8 @@
 				A04DC2F32C0961AD00F21744 /* ThirdFloorView.swift */,
 				A04DC2F52C0961BD00F21744 /* ChemView.swift */,
 				A04DC2F72C0961DF00F21744 /* RoomDetailView.swift */,
+				A04DC2FD2C0A0E6100F21744 /* tutorView.swift */,
+				A04DC3012C0A102800F21744 /* WeatherView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,16 +332,20 @@
 				A04DC2B12C0942F800F21744 /* AllFloors.swift in Sources */,
 				A04DC2F62C0961BD00F21744 /* ChemView.swift in Sources */,
 				A04DC2EA2C09571C00F21744 /* ChatView.swift in Sources */,
+				A04DC2FE2C0A0E6100F21744 /* tutorView.swift in Sources */,
 				A04DC2E02C09568F00F21744 /* MapView.swift in Sources */,
+				A04DC3022C0A102800F21744 /* WeatherView.swift in Sources */,
 				A04DC2AF2C0942AE00F21744 /* User.swift in Sources */,
 				A04DC2E82C09570B00F21744 /* AccountView.swift in Sources */,
 				A04DC2C92C09536600F21744 /* Test.swift in Sources */,
 				A04DC2B52C09434800F21744 /* SecondFloorApps.swift in Sources */,
 				A04DC2B92C09438D00F21744 /* Message.swift in Sources */,
+				A04DC3002C0A0FDD00F21744 /* WeatherModel.swift in Sources */,
 				A04DC2BB2C0943AC00F21744 /* chatViewModel.swift in Sources */,
 				A04DC2BF2C0943F600F21744 /* FirstFloorRooms.swift in Sources */,
 				A04DC2C32C09442D00F21744 /* GroundFloorRooms.swift in Sources */,
 				A04DC2B32C09431A00F21744 /* Room.swift in Sources */,
+				A04DC2FC2C0A0E2500F21744 /* TutorList.swift in Sources */,
 				A04DC2E22C0956A300F21744 /* ClassInfoView.swift in Sources */,
 				A04DC2E42C0956CE00F21744 /* StartupView.swift in Sources */,
 				A04DC2F02C09614D00F21744 /* FirstFloorView.swift in Sources */,
@@ -334,6 +353,7 @@
 				A04DC2DE2C09568000F21744 /* SignInView.swift in Sources */,
 				A04DC2E62C0956F500F21744 /* SearchView.swift in Sources */,
 				A04DC29A2C091B2D00F21744 /* SearchLMApp.swift in Sources */,
+				A04DC2FA2C0A0DE800F21744 /* Tutors.swift in Sources */,
 				A04DC2EC2C09573800F21744 /* MessageView.swift in Sources */,
 				A04DC2A92C092F5000F21744 /* DatabaseManager.swift in Sources */,
 				A04DC2B72C09436400F21744 /* Constants.swift in Sources */,
