@@ -12,11 +12,13 @@ struct Room: Identifiable {
     var teacher: String
     var email: String
     var id = UUID()
+    var lunch: [Int]
     
-    init(number: Int = 5, teacher: String = "nil", email: String = "nil"){
+    init(number: Int = 5, teacher: String = "nil", email: String = "nil", lunch: [Int] = [1, 2, 1, 2]){
         self.number = number
         self.teacher = teacher
         self.email = email
+        self.lunch = lunch
     }
     
 }

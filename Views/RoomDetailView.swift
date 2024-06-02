@@ -29,12 +29,23 @@ struct RoomDetailView: View {
                 Text(room.email)
                     .font(.custom("Helvetica Neue Thin", size: 20))
                     .padding(25)
+            }.padding()
+            HStack{
+                VStack{
+                    Text("A: lunch \(room.lunch[0])").padding()
+                        .font(.custom("Helvetica Neue Thin", size: 20))
+                    Text("B: lunch \(room.lunch[1])").padding()
+                        .font(.custom("Helvetica Neue Thin", size: 20))
+                    Text("C: lunch \(room.lunch[2])").padding()
+                        .font(.custom("Helvetica Neue Thin", size: 20))
+                    Text("D: lunch \(room.lunch[3])").padding()
+                        .font(.custom("Helvetica Neue Thin", size: 20))
+                }.padding()
+                Spacer()
             }
 
             Spacer()
             Spacer()
-            Spacer()
-            
         }
     }
 }
