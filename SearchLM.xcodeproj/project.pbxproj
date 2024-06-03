@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61C518912C0E203600743CBE /* chemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C518902C0E203600743CBE /* chemView.swift */; };
 		9F0FF17C037A458A3137EE37 /* Pods_SearchLM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E78B3DAEDFAE3CA573FDA43 /* Pods_SearchLM.framework */; };
 		A04DC29A2C091B2D00F21744 /* SearchLMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2992C091B2D00F21744 /* SearchLMApp.swift */; };
 		A04DC29C2C091B2D00F21744 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC29B2C091B2D00F21744 /* ContentView.swift */; };
@@ -38,7 +39,6 @@
 		A04DC2F02C09614D00F21744 /* FirstFloorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2EF2C09614D00F21744 /* FirstFloorView.swift */; };
 		A04DC2F22C09619800F21744 /* SecondFloorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F12C09619800F21744 /* SecondFloorView.swift */; };
 		A04DC2F42C0961AD00F21744 /* ThirdFloorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F32C0961AD00F21744 /* ThirdFloorView.swift */; };
-		A04DC2F62C0961BD00F21744 /* ChemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F52C0961BD00F21744 /* ChemView.swift */; };
 		A04DC2F82C0961DF00F21744 /* RoomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F72C0961DF00F21744 /* RoomDetailView.swift */; };
 		A04DC2FA2C0A0DE800F21744 /* Tutors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2F92C0A0DE800F21744 /* Tutors.swift */; };
 		A04DC2FC2C0A0E2500F21744 /* TutorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC2FB2C0A0E2500F21744 /* TutorList.swift */; };
@@ -50,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		1AC77DE01220E0C279F90B0D /* Pods-SearchLM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchLM.debug.xcconfig"; path = "Target Support Files/Pods-SearchLM/Pods-SearchLM.debug.xcconfig"; sourceTree = "<group>"; };
+		61C518902C0E203600743CBE /* chemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemView.swift; sourceTree = "<group>"; };
 		84066033F18D5D02104A6A5E /* Pods-SearchLM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchLM.release.xcconfig"; path = "Target Support Files/Pods-SearchLM/Pods-SearchLM.release.xcconfig"; sourceTree = "<group>"; };
 		9E78B3DAEDFAE3CA573FDA43 /* Pods_SearchLM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchLM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04DC2962C091B2D00F21744 /* SearchLM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchLM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,7 +84,6 @@
 		A04DC2EF2C09614D00F21744 /* FirstFloorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFloorView.swift; sourceTree = "<group>"; };
 		A04DC2F12C09619800F21744 /* SecondFloorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFloorView.swift; sourceTree = "<group>"; };
 		A04DC2F32C0961AD00F21744 /* ThirdFloorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFloorView.swift; sourceTree = "<group>"; };
-		A04DC2F52C0961BD00F21744 /* ChemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemView.swift; sourceTree = "<group>"; };
 		A04DC2F72C0961DF00F21744 /* RoomDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailView.swift; sourceTree = "<group>"; };
 		A04DC2F92C0A0DE800F21744 /* Tutors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutors.swift; sourceTree = "<group>"; };
 		A04DC2FB2C0A0E2500F21744 /* TutorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorList.swift; sourceTree = "<group>"; };
@@ -191,11 +191,11 @@
 				A04DC2EF2C09614D00F21744 /* FirstFloorView.swift */,
 				A04DC2F12C09619800F21744 /* SecondFloorView.swift */,
 				A04DC2F32C0961AD00F21744 /* ThirdFloorView.swift */,
-				A04DC2F52C0961BD00F21744 /* ChemView.swift */,
 				A04DC2F72C0961DF00F21744 /* RoomDetailView.swift */,
 				A04DC2FD2C0A0E6100F21744 /* tutorView.swift */,
 				A04DC3012C0A102800F21744 /* WeatherView.swift */,
 				A04DC3032C0A143200F21744 /* SocialView.swift */,
+				61C518902C0E203600743CBE /* chemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,7 +228,7 @@
 				A04DC2922C091B2D00F21744 /* Sources */,
 				A04DC2932C091B2D00F21744 /* Frameworks */,
 				A04DC2942C091B2D00F21744 /* Resources */,
-				B91567BE94338B3A523D4E52 /* [CP] Embed Pods Frameworks */,
+				8590092597D31E38F47FFD53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -308,7 +308,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B91567BE94338B3A523D4E52 /* [CP] Embed Pods Frameworks */ = {
+		8590092597D31E38F47FFD53 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,7 +333,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A04DC2B12C0942F800F21744 /* AllFloors.swift in Sources */,
-				A04DC2F62C0961BD00F21744 /* ChemView.swift in Sources */,
 				A04DC2EA2C09571C00F21744 /* ChatView.swift in Sources */,
 				A04DC2FE2C0A0E6100F21744 /* tutorView.swift in Sources */,
 				A04DC2E02C09568F00F21744 /* MapView.swift in Sources */,
@@ -363,6 +362,7 @@
 				A04DC2B72C09436400F21744 /* Constants.swift in Sources */,
 				A04DC2F42C0961AD00F21744 /* ThirdFloorView.swift in Sources */,
 				A04DC2F82C0961DF00F21744 /* RoomDetailView.swift in Sources */,
+				61C518912C0E203600743CBE /* chemView.swift in Sources */,
 				A04DC2C52C09444900F21744 /* ThirdFloorRooms.swift in Sources */,
 				A04DC2D82C0955FE00F21744 /* ChemRooms.swift in Sources */,
 				A04DC2EE2C09613000F21744 /* BasementView.swift in Sources */,

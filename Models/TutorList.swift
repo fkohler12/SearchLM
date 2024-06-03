@@ -22,8 +22,8 @@ class Tutors : ObservableObject {
         Tutor(name : "Sam Bergheiser", email: "s019227@students.lmsd.org", grade: 11, face: "placeholder",subject: .history, subSubject: "APUSH, Global Studies"),
         Tutor(name : "Matthew Hartstein", email: "s017867@students.lmsd.org", grade: 11, face: "placeholder",subject: .math, subSubject: "AP Calculus BC, Pre-Calculus Honors, Integrated 1-3"),
         Tutor(name: "Drew Greenland", email: "s017874@students.lmsd.org", grade: 11, face: "placeholder", subject: .math, subSubject: "Pre-Calculus"),
-        Tutor(name : "Penny Cohen", email: "s018961@students.lmsd.org", grade: 11, face: "placeholder", subject: .english, subSubject: "AP Language"),
-        Tutor(name : "Emily Donahue", email : "s017790@students.lmsd.org", grade : 11, face: "placeholder", subject: .english, subSubject: "Ap language")
+        Tutor(name : "Penny Cohen", email: "s018961@students.lmsd.org", grade: 11, face: "placeholder", subject: .english, subSubject: "AP Lang"),
+        Tutor(name : "Emily Donahue", email : "s017790@students.lmsd.org", grade : 11, face: "placeholder", subject: .english, subSubject: "AP Lang")
         
     ]
     
