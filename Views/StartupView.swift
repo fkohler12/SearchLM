@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct StartupView: View {
+    //vars
   @EnvironmentObject var user: User
 
   var body: some View {
@@ -20,6 +21,7 @@ struct StartupView: View {
           .font(.title)
           .foregroundColor(.white)
         Spacer()
+          //tabview, made to navigate main views 
         TabView {
           MapView()
             .tabItem {

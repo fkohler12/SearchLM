@@ -7,18 +7,20 @@
 
 import SwiftUI
 
+//for the tab on the left side
 enum ViewState {
     case g, l1, l2, l3, chem
 }
 
 struct MapView: View {
-    
+    //vars
     @State var viewState: ViewState = .l1
     
     var body: some View {
         
         HStack{
             VStack{
+                //formatting for the side tab
                 Button{
                     viewState = .l1
                 } label: {
@@ -89,6 +91,8 @@ struct MapView: View {
                     }
                 }.padding()
             }
+            
+            //cases for setting the floor view
             Spacer()
             if viewState == .l1 {
                 FirstFloorView()

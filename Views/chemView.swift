@@ -19,13 +19,13 @@ import SwiftUI
 struct ChemView: View {
 
     
-
+//var
     @EnvironmentObject var chemistryRooms: ChemRooms
 
     
 
     var body: some View {
-
+//list of chem rooms
         NavigationView {
 
             List(chemistryRooms.chemRooms) { room in

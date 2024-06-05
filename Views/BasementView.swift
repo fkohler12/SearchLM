@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct BasementView: View {
+    //vars
     @EnvironmentObject var groundFloorRooms: GroundFloorRooms
     
     var body: some View {
+        //link onto the list of rooms for the ground floors
         NavigationView {
             List(groundFloorRooms.groundFloorRooms) { room in
                 NavigationLink(destination: {

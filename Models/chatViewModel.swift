@@ -13,6 +13,7 @@ import FirebaseDatabase
 
 
 class ChatViewModel: ObservableObject {
+    //var, all messages
     @Published var messages = [Message]()
 
     init() {

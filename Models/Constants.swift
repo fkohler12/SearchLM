@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//unused model, no need for it due to lack of formatting
 extension Color{
     static let maroon = Color("Color")
     static let darkBlack = Color("Negro")

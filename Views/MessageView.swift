@@ -9,11 +9,13 @@ import SwiftUI
 
 
 struct MessageView: View {
+    //vars
     @EnvironmentObject var user: User
 
     var message: Message
     
     var body: some View {
+        //deciding on which side of the screen to display our message on
         if message.isFromCurrentUser(){
             HStack{
                 
@@ -53,6 +55,7 @@ struct MessageView: View {
 
 struct MessageView_Previews: PreviewProvider {
     static var previews: some View {
+        //defaults
         MessageView(message: Message(userUid: "12345", text: "Hello", createdAt: Date()))
             .environmentObject(User())
     }

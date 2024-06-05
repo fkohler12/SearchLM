@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//ground floor aka gym area
 class GroundFloorRooms: ObservableObject{
     @Published var groundFloorRooms: [Room] = [
         Room(number: 001, teacher: "Mr. Downer", email: "downerg@lmsd.org"),

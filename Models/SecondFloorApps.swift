@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//second floor room list, teacher data
 class SecondFloorRooms: ObservableObject{
     @Published var secondFloorRooms: [Room] = [
         Room(number: 200, teacher: "Mrs. Hemler", email: "hemlerc@lmsd.org", lunch: [1, 2, 1, 2]),

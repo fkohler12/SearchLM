@@ -8,6 +8,7 @@
 import Foundation
 
 class FirstFloorRooms: ObservableObject{
+    //first floor rooms aka teacher infor
     @Published var firstFloorRooms: [Room] = [
         Room(number: 101, teacher: "Ms. Leader", email: "leader@lmsd.org", lunch: [1, 1, 1, 1]),
         Room(number: 102, teacher: "Mrs. Finder", email: "finder@lmsd.org", lunch: [2, 2, 2, 2]),

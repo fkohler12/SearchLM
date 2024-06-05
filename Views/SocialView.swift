@@ -10,11 +10,12 @@
 import SwiftUI
 
 struct SocialView: View {
-    
+    //var to decide which view, probably should have done an enumeration but time crunch
     @State var viewNum = 1
     
     var body: some View {
         VStack{
+            //both the chatview and the tutorview
             HStack{
                 Spacer()
                 Button {

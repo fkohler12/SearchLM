@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct RoomDetailView: View {
-    
+    //var
     var room: Room
     
     var body: some View {
+        
+        //formatting teacher information
         VStack{
             Spacer()
             HStack{

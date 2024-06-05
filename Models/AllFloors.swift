@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//optimize if time, but done during crunch. messed up firebase and had to hard code it
 class AllRooms: ObservableObject{
     @Published var allRooms: [Room] = [
            Room(number: 351, teacher: "Mr. Werkheiser", email: "werkheiser@lmsd.org", lunch: [2, 2, 1, 1]),

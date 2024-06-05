@@ -9,11 +9,12 @@ import SwiftUI
 
 struct SearchView: View {
     
+    //vars
     private var listOfRooms = AllRooms()
-    
     @State var searchText = ""
     
     var body: some View {
+        //full list before the search
         NavigationView {
             List {
                 ForEach(teachers, id: \.self) {teacher in
@@ -30,7 +31,7 @@ struct SearchView: View {
             .navigationTitle("Search")
         }
     }
-    
+    //search vars + functions
     var teachers: [String] {
         let lcTeachers = listOfRooms.allRooms.map{$0.teacher.lowercased()}
         
@@ -38,7 +39,7 @@ struct SearchView: View {
             $0.contains(searchText.lowercased())
         }
     }
-    
+    //function
     func findRoom (room: String) -> Int? {
         for i in 0..<listOfRooms.allRooms.count {
             if listOfRooms.allRooms[i].teacher.lowercased().contains(room) {

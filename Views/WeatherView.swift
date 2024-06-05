@@ -6,10 +6,13 @@
 //
 
 import SwiftUI
+//kingfisher to pull image from internet after pulling ID from API
 import Kingfisher
 
 struct WeatherView: View {
     
+    
+    //vars
     @StateObject var todayModel : TodayModel = TodayModel()
     
     @EnvironmentObject var user : User
@@ -18,13 +21,14 @@ struct WeatherView: View {
         VStack{
             
             
-            
+            //kingfisher use by pulling id from API
             KFImage(URL(string:"https://openweathermap.org/img/wn/\(todayModel.today.weather.icon)@2x.png"))
                 .resizable()
                 .aspectRatio(contentMode: .fill)
             
             Spacer()
             
+            //based on temperature, prints out what to wear
             Text("What should you wear today?")
                 .font(.title)
             
@@ -49,7 +53,7 @@ struct WeatherView: View {
                 VStack {
                     
                     Spacer()
-
+//all data 
                     Text("Temperature")
                         .font(.custom("Helvetica Neue Thin" , fixedSize: 20))
                     Text("\(Int(((todayModel.today.main.temp) - 273.15) * 1.8 + 32 ))º")
@@ -113,3 +117,4 @@ struct WeatherView_Previews: PreviewProvider {
         WeatherView()
     }
 }
+

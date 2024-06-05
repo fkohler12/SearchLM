@@ -10,20 +10,26 @@ import Firebase
 import FirebaseAuth
 
 struct SignInView: View {
+    
+    //variable declaration
         @EnvironmentObject var user: User
         @State private var showingAlert = false
         @State private var errorMessage = ""
     
         var body: some View {
             ZStack{
+                
+                //background maroon
                 Rectangle()
                     .foregroundColor(.maroon)
                     .edgesIgnoringSafeArea((.all))
                 VStack{
+                    //logo image
                     Image("logo")
                         .resizable()
                         .scaledToFit()
                     Spacer()
+                    //text fields, email and password
                     TextField("email address", text: $user.email)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
@@ -33,6 +39,7 @@ struct SignInView: View {
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
                     Spacer()
+                    //making sure that user email is a student
                     Button {
                         if(user.email.contains("students.lmsd.org")){
                             Auth.auth().createUser(withEmail: user.email, password: user.password){

@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct SecondFloorView: View {
-    
+    //vars
         @EnvironmentObject var secondFloorRooms: SecondFloorRooms
         
         var body: some View {
             NavigationView {
+                //list of second floor rooms
                 List(secondFloorRooms.secondFloorRooms) { room in
                     NavigationLink(destination: {
                         RoomDetailView(room: room)

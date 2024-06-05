@@ -9,10 +9,12 @@ import SwiftUI
 
 struct FirstFloorView: View {
     
+    //vars
     @EnvironmentObject var firstFloorRooms: FirstFloorRooms
     
     var body: some View {
         NavigationView {
+            //list of first floow rooms with number
             List(firstFloorRooms.firstFloorRooms) { room in
                 NavigationLink(destination: {
                     RoomDetailView(room: room)

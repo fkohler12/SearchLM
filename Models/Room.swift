@@ -6,14 +6,14 @@
 //
 
 import Foundation
-
+//vars
 struct Room: Identifiable {
     var number: Int
     var teacher: String
     var email: String
     var id = UUID()
     var lunch: [Int]
-    
+    //initializers for teacher information
     init(number: Int = 5, teacher: String = "nil", email: String = "nil", lunch: [Int] = [1, 2, 1, 2]){
         self.number = number
         self.teacher = teacher

@@ -7,11 +7,13 @@
 
 import FirebaseFirestore
 import FirebaseFirestoreSwift
-
+//in case of errors
 enum FetchMessagesError: Error {
     case snapshotError
 }
+//firebase firestore, or our realtime database to be able to transfer messages in realtime
 final class DatabaseManager{
+    //vars
     static let shared = DatabaseManager()
     let messageRef = Firestore.firestore().collection("messages")
     let database = Firestore.firestore()
@@ -20,7 +22,7 @@ final class DatabaseManager{
         .addSnapshotListener { snapshot, error in
           guard let snapshot = snapshot, error == nil else {
             completion(.failure(.snapshotError))
-            print("Couldnt retrieve")
+            print("Couldn't retrieve")
             return
           }
 
@@ -38,6 +40,7 @@ final class DatabaseManager{
           completion(.success(messages))
         }
     }
+    //taking sent message and converting it to data to send to the firestore
     func sendMessageToDatabase(message: Message, completion: @escaping (Bool) -> Void) {
         let data = [
             "text": message.text ?? "",

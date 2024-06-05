@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-
+//top level
 struct Today : Codable {
     var main : Main = Main()
     var weather : Weather = Weather()
@@ -15,7 +15,7 @@ struct Today : Codable {
 }
 
 
-
+//second level, second branch
 struct Weather : Codable {
     var id : Int = 800
     var main : String = "Clear"
@@ -23,7 +23,7 @@ struct Weather : Codable {
     var icon : String = "04d"
 }
 
-
+//second level, 1st branch
 struct Main: Codable {
     var temp : Double = 255.372
     var feels_like : Double = 255.372
@@ -32,7 +32,7 @@ struct Main: Codable {
     var humidity : Int = 0
     
 }
-
+//getting data from the api and converting it to usable information
 class TodayModel: ObservableObject {
     
     @Published var today = Today()
@@ -43,7 +43,7 @@ class TodayModel: ObservableObject {
         guard let url = URL(string: urlString) else {return}
         
         guard var (data, _) = try? await URLSession.shared.data(from : url) else {return}
-        
+//transforming data into a printable string by taking it out of the object 
         // convert to a string
         var dataString = String(data: data, encoding: .utf8)
         // remove the [ and ]

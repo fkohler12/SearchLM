@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    //vars
     @EnvironmentObject var user: User
     var body: some View {
+        //first view, contains all the tabs inside it so you are able to navigate
         ZStack {
             if(user.loggedIn){
                 StartupView()

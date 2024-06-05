@@ -8,7 +8,7 @@
 import Foundation
 
 
-
+//tutor info
 struct Tutor : Identifiable, Hashable {
     var name: String
     var email : String
@@ -20,7 +20,7 @@ struct Tutor : Identifiable, Hashable {
 
      
     
-    
+    //initializers
     init(name: String = "Bole Ying" , email: String = "s017919@students.lmsd.org", grade: Int = 11, face: String = "bolePhoto", subject : Subject = .math, subSubject : String = "Senior Seminar, AB and BC Calculus, Pre-Calc, Integrated 1, 2, and 3"){
         self.name = name
         self.email = email

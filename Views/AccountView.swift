@@ -10,10 +10,11 @@ import FirebaseStorage
 import FirebaseAuth
 import FirebaseDatabase
 struct AccountView: View {
-    
+    //vars
     @EnvironmentObject var user: User
     
     var body: some View {
+        //backgrounn n stuff
         ZStack {
             Rectangle()
                 .foregroundColor(.maroon)
@@ -25,6 +26,7 @@ struct AccountView: View {
                     .foregroundColor(.white)
                 
                 Spacer()
+                //setting username
                 TextField("New Username", text: $user.name)
                           .padding()
                           .background(Color.white.opacity(0.6))
@@ -36,6 +38,7 @@ struct AccountView: View {
                           .task{
                               print(user.name)
                           }
+                //signout button
                 Button {
                    let success = try? Auth.auth().signOut()
                     if let _ = success {

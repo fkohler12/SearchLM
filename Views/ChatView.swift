@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ChatView: View {
+    //vars
     @EnvironmentObject var user: User
 
     @StateObject var chatViewModel = ChatViewModel()
@@ -22,10 +23,11 @@ struct ChatView: View {
                 }
             }
             HStack {
+                //prompt
                 TextField("Hello there", text: $text, axis: .vertical)
                     .padding()
                 
-                
+                //send button
                 Button {
                     if text.count > 2{
                         chatViewModel.sendMessage(text: text) { success in

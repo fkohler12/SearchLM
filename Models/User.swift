@@ -5,6 +5,8 @@ import FirebaseStorage
 import FirebaseAuth
 import FirebaseDatabase
 
+
+//user class, contains all data needed for sign in, weather data, and other
 class User: ObservableObject{
     @Published var email: String
     @Published var password: String
@@ -17,7 +19,7 @@ class User: ObservableObject{
     
 
     
-    
+    //initializers
     init(email: String = "", password: String = ""){
         self.email = email
         self.password = password

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct tutorView: View {
     
-    
+    //vars
     @StateObject var t = Tutors()
     
     
@@ -17,7 +17,7 @@ struct tutorView: View {
         
             
             VStack {
-                
+                //math tutors
                 List{
                     Section(header : Text("Math")) {
                         
@@ -42,6 +42,7 @@ struct tutorView: View {
                         }
                         
                     }
+                    //science tutors
                     Section(header : Text("Science")) {
                         ForEach(t.tutors, id : \.self) { tutor in
                             if tutor.subject == .science {
@@ -66,6 +67,7 @@ struct tutorView: View {
                         }
                         
                     }
+                    //history tutors
                     Section(header : Text("History")) {
                         ForEach(t.tutors, id : \.self) { tutor in
                             if tutor.subject == .history {
@@ -87,6 +89,7 @@ struct tutorView: View {
                         }
                         
                     }
+                    //english tutors
                     Section(header : Text("English")) {
                         ForEach(t.tutors, id : \.self) { tutor in
                             if tutor.subject == .english {
@@ -117,11 +120,15 @@ struct tutorView: View {
     }
     
 
-struct Subjects : Identifiable {
-    var id = UUID()
-    var subjects : [String]
-}
 
+//pointless, not using. Would use if had more time to make view more complicated
+//struct Subjects : Identifiable {
+//    var id = UUID()
+//    var subjects : [String]
+//}
+
+
+//list of subjects
 let subjects : [String] = ["Science", "Math", "English", "History"]
 
 struct tutorView_Previews: PreviewProvider {

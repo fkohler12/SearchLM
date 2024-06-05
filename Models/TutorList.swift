@@ -6,11 +6,11 @@
 //
 
 import Foundation
-
+//subject enumeration for sorting
 enum Subject{
     case math, science, english, history
 }
-
+//list of tutors including enumeration
 class Tutors : ObservableObject {
     var subject: Subject = .math
     @Published var tutors : [Tutor] = [
