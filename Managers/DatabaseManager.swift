@@ -17,6 +17,7 @@ final class DatabaseManager{
     static let shared = DatabaseManager()
     let messageRef = Firestore.firestore().collection("messages")
     let database = Firestore.firestore()
+    //getting messages from realtime database
     func fetchMessages(completion: @escaping (Result<[Message], FetchMessagesError>) -> Void) {
       messageRef.order(by: "createdAt", descending: true).limit(to: 25)
         .addSnapshotListener { snapshot, error in
@@ -42,6 +43,7 @@ final class DatabaseManager{
     }
     //taking sent message and converting it to data to send to the firestore
     func sendMessageToDatabase(message: Message, completion: @escaping (Bool) -> Void) {
+        //data, the message sent, who it is sent by(for formatting), and when the message was sent(so messages can be ordered correctly
         let data = [
             "text": message.text ?? "",
             "userUid": message.userUid ?? "",
